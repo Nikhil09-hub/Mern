@@ -1,0 +1,23 @@
+h1:hover{
+background-color: black;
+color: white;
+}
+li:first-child{
+    color: blue;
+}
+li:nth-child(even){
+    color: rgb(23, 171, 121);
+}
+li:nth-child(3){
+    color: blueviolet;
+}
+.child:nth-child(odd){
+    color: red;
+}
+a:visited{
+    color: rgb(71, 254, 153);
+
+}
+a:active{
+color: rgb(190, 13, 179);
+}

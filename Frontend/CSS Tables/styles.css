@@ -1,0 +1,26 @@
+table{
+    width: 700px;
+    height: 180px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+td,th,table{
+    border: 2px black solid;
+    border-collapse: collapse;
+
+}
+.colspan{
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 300px;
+}
+
+/* tr:hover td,
+tr:hover th {
+  background-color: #ddd;
+} */
+ .rowspan{
+    height: 240px;
+ }

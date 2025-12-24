@@ -1,0 +1,33 @@
+.parent{
+    background-color: skyblue;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    
+}
+.child1{
+    background-color: rgb(232, 0, 0);
+    /* position: relative; */
+    position: sticky;
+    top: 50px;
+    
+}
+.child2{
+    background-color: green;
+    /* position: relative; */
+    /* top: 300px;
+    right: 200px; */
+    /* position :absolute;
+    top: 50%;
+    right: 50%; */
+}
+.child3{
+    background-color: blue;
+
+}

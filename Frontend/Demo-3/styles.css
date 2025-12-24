@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Story+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    width: 100%;
+    height: 500px;
+}
+.img2{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+h1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+font-family: "Quintessential", serif;
+letter-spacing: 2px;
+}
+h1::first-letter{
+    font-size: 6rem;
+    color: rgb(223, 145, 171);
+}

@@ -1,0 +1,10 @@
+h1{
+    /* background-color: red; */
+    /* background-image: linear-gradient(to left ,#a0e952, rgb(70, 121, 232), rgb(140, 101, 194)); */
+    background-image: url(../assets/demo-images/pexels-daria-liudnaya-7354537.jpg);
+}
+body{
+    background-image: url(../assets/demo-images/pexels-pixabay-247765.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

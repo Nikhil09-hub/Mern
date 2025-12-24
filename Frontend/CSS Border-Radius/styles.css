@@ -1,0 +1,10 @@
+.new{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 75px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 400px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin: auto;
+    padding: 20px;
+    background-color: lightcyan;
+}
+label{
+    font-size: 1.2rem;
+}
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="email"],
+input[type="number"]{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    
+}
+.gap{
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px 10px;
+    
+}
+input[type="checkbox"]{
+    outline: none;
+    accent-color: green;
+}
+
+input:focus{
+    border: 2px solid orange;
+}
+
+/*  when required field is valid */
+input:required:valid{
+    border: 2px solid green;
+}
+
+input:invalid:focus{
+    border: 2px solid red;
+}
+
+/* input:placeholder-shown{
+    border: 2px solid rgb(244, 248, 168);
+} */

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form>
+        <!-- For username -->
+         <div class="gap">
+         <label for="username">Username</label>
+         <input type="text" name="username" id="username" placeholder="e.g.Ravi" autocomplete="off"
+         required minlength="4"
+         >
+         </div>
+         <!-- Password -->
+         <div class="gap">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+         </div>
+         <!-- Date -->
+          <div class="gap">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+         </div>
+         <!-- Email -->
+         <div class="gap">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+         </div>
+         <!-- salary -->
+          <div  class="gap">
+            <label for="salary">Salary</label>
+            <input type="number" 
+                    name="salary" 
+                    id="salary" 
+                    min="10000" max="50000"
+                    >
+          </div>
+         <!-- Checkbox -->   
+        <label for="">Skills</label>
+          <div>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">Javascript</label>
+          </div>
+          <div>  
+            <input type="checkbox" name="react" id="react">
+            <label for="react">React</label>
+          </div>
+          <div class="gap">
+            <input type="checkbox" name="angular" id="angular">
+            <label for="angular">Angular</label>
+          </div>
+          <!-- Radio -->
+        <label>Select gender</label>
+            <!-- male -->
+        <div>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        </div>
+        <!-- female -->
+        <div>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        </div>
+         <!-- others -->
+        <div>
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label>
+        </div>
+           <!-- File -->
+            <div class="gap">
+            <label for="file">Upload Photo</label>
+            <input type="file" name="file" id="file">
+            </div>
+            <div class="gap">
+                <label for="state">Select State</label>
+                <select name="state" id="state">
+                    <option value="tg">Telangana</option>
+                    <option value="ap">Andhra Pradesh</option>
+                    <option value="Kl">Kerala</option>
+                </select>
+            </div>
+            <div class="gap">
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback"></textarea>
+            </div>
+
+           <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

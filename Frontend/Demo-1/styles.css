@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainheading{
+    background-color: slategray;
+    text-align: center;
+    font-size: 2.7rem;
+    color:white;
+    padding: 40px;
+}
+.tech-stack{
+    text-align: center;
+    color: skyblue;
+    font-size: 2rem;
+    padding: 30px;
+}
+.web-stack{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 208, 144);
+}
+a:hover{
+    background-color: rgb(15, 208, 144);
+    color: white;
+    padding: 2px;
+}
+.gap{
+    margin-top: 700px;
+    margin-bottom: 700px;
+    padding: 100px;
+}
+h2{
+    color: purple;
+}

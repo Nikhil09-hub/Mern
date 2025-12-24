@@ -1,0 +1,14 @@
+.start::before{
+    content: "💻";
+}
+.end::after{
+    content: "🌈";
+}
+h1::first-letter{
+    font-size: 3rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.start-line::first-line{
+    color: blue;
+}
