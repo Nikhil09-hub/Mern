@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    /* Horizontal allignment */
+    /* Space Around- Extra space is placed around each item, edges get half-space.*/
+    /* justify-content: space-around; */
+    /* Space evenly-Extra space is distributed equally between items and edges.*/
+    /* justify-content: space-evenly; */
+    /* Space between-Extra space is placed between items only, not at the edges  */
+    /* justify-content: space-between; */
+
+    /* Vertical allignment */
+    align-items: space-evenly;
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.child-1{
+    background-color: red;
+
+}
+.child-2{
+    background-color: green;
+}
+.child-3{
+    background-color: blue;
+}
