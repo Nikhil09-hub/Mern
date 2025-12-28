@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --light-red: #CE4565;
+    --light-grey: rgb(141, 139, 139);
+    --dark-grey: rgb(210, 208, 208);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dark-grey);
+}
+span{
+    color: var(--light-red);
+}
+.nav-blog-title{
+    color: var(--light-grey);
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+}
+li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+nav form input{
+    background-color: var(--light-grey);
+    padding: 6px;
+    border: none;
+}
+nav form button{
+    background-color: var(--light-red);
+    padding: 6px;
+    border: none;
+    color: white;
+}
+nav form{
+    gap: 0;
+}
+nav ul a:hover{
+    background-color: var(--light-red);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Main styles */
+
+
+main{
+    padding: 30px 100px;
+    background-color: var(--light-red);
+}
+main h1{
+    text-align: center;
+}
+main span{
+    color: var(--light-grey);
+}
+main .card-container .card img{
+    width: 100%;
+    box-shadow: 0px 0px 7px  black;
+}
+main .card-container .card{
+    width: 300px;
+}
+main .card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+main .main-subheading{
+    font-size: 1.5rem;
+    color: white;
+    padding: 15px 0px;
+
+}
+main .card-container .card .name{
+    font-size: 1.3rem;
+    padding: 15px 0px;
+    color: white;
+}
+main .card-container .card .desc{
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+main .card-container .card .profile-button{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    border: none;
+    background-image: linear-gradient(#b5415c,#a2455b );
+    cursor: pointer;
+    color: white;
+}
+main .card-container .card .profile-button:hover{
+    font-size: 1.0rem;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    padding: 50px;
+    background-color: var(--dark-grey);
+}
+footer div{
+    width: 400px;
+    font-size: .9rem;
+    line-height: 1.4;
+
+}
+footer div h1{
+    color: rgb(87, 85, 85);
+}
