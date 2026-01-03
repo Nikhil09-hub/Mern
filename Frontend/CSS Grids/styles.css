@@ -12,7 +12,8 @@
     display: grid;
     background-color: azure;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    margin-bottom: 100px;
 }
 .child-1{
     background-color: brown;
@@ -21,4 +22,24 @@
 }
 .child-2{
     background-color: blanchedalmond;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.child-3{
+    background-color: rgb(25, 232, 190);
+}
+.child-4{
+    background-color: rgb(239, 149, 13);
+}
+.child-5{
+    background-color: rgb(105, 12, 235);
+    
+    
+}
+.child-6{
+    background-color: greenyellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
