@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    column-count: 4;
+    column-width: 300px;
+}
+/* 
+For flexbox 
+use flex containers flex-wrap :wrap;
+*/
+
+/* 
+for images set width as 100% of parent 
+ */
