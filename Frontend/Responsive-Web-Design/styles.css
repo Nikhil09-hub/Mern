@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     column-count: 4;
     column-width: 300px;
-}
+} */
 /* 
 For flexbox 
 use flex containers flex-wrap :wrap;
@@ -15,3 +15,13 @@ use flex containers flex-wrap :wrap;
 /* 
 for images set width as 100% of parent 
  */
+ img{
+    width: 100%;
+    /* max-width Stops grouwing factor */
+    max-width: 600px;
+
+ }
+ h1{
+    text-align: center;
+    font-size: clamp(2rem,5vw,5rem);
+ }
