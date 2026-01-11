@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* bg- color red below 576px */
+@media screen and (max-width:576px){
+    body{
+        background-color: red;
+    }
+    img{
+        display: none;
+    }
+}
+/* bg- color blue above 576px and below 768 */
+
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        background-color: blue;
+    }
+    img{
+        display: none;
+    }
+}
+/* bg- color blue above 768px and below 992 */
+@media screen and (min-width:769px) and (max-width:992px){
+    body{
+        background-color: orange;
+    }
+}
+/* bg- color blue above 992 and below 1200 */
+@media screen and (min-width:993px) and (max-width:1200px){
+    body{
+        background-color: green;
+    }
+}
+/* bg- color blue above 1200px and below 1400px */
+@media screen and (min-width:1201px) and (max-width:1400px){
+    body{
+        background-color: aqua;
+    }
+}
+/* For removing elements set dispplay property to none */
+img{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+h1{
+    font-size: clamp(2rem,6vw,8rem);
+}
