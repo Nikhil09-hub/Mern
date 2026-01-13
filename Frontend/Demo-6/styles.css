@@ -117,4 +117,61 @@ footer .left ul li{
         display: none;
     }
     
+    nav form{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: block;
+    }
+
+    main .right{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    footer .left{
+        width: 100%;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    footer .right{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-top: 0px;
+    }
+
+    .child{
+        grid-column: 1/2;
+    }
+    .child-1{
+        grid-row: 1/2;
+    }
+    .child-2{
+        grid-row: 2/3;
+    }
+    .child-3{
+        grid-row: 3/4;
+    }
+    .child-4{
+        grid-row: 4/5;
+    }
+    .child-5{
+        grid-row: 5/6;
+    }
+    .child-6{
+        grid-row: 6/7;
+    }
+    .child-7{
+        grid-row: 7/8;
+    }
 }
