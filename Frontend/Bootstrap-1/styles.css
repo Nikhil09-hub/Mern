@@ -1,0 +1,12 @@
+/* .alert{
+    padding: 10px;
+} */
+ *{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+ }
+.vertical-card{
+    width: 300px;
+    margin: auto;
+}
