@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-placeholder1{
+    height: 200px;
+}
+.list-unstyled:hover{
+    background-color: rgb(96, 181, 234);
+    color: white;
+    border-radius: 4px;
+
+    
+}
+.list-unstyled:hover a{
+    color: white;
+}
+.container-fluid h1{
+    font-size: 3rem;
+}
