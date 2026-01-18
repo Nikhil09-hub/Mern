@@ -1,0 +1,14 @@
+.vertical-card{
+    width: 300px;
+    margin: auto;
+}
+ img{
+    width: 100%;
+
+}
+.collapse{
+    width: 300px;
+}
+.dropdown-header{
+    font-weight: 900;
+}
