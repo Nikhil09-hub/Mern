@@ -5,20 +5,33 @@ let student1 = {
     marks:98
 }
 //constructor function ->blueprint
-class Person{
+class Student{
         //a special method to initilize current object
-        constructor(pid, name, city){
-            this.pid=pid;
+        constructor(name, age, marks){
             this.name=name;
-            this.city=city;
+            this.age=age;
+            this.marks=marks;
         }
 
-        getName(){
-            return this.name;
-        }
+        //getName(){
+          //  return this.name;
+        //}
     }
+//Adding methods to prototype of the constructor
+Student.prototype.getName=function(){
+    return this.name
+}
 //Create objects of that blueprint
-let p1 = new Person(1, 'ravi', 'hyd',)
-let p2 = new Person(2, 'kiran', 'chennai')
-console.log(p1.getName())
-console.log(p2)
+let s1 = new Student('Anand',18,99)
+let s2 = new Student('Manasa',19,81)
+console.log(s1)
+console.log(s1.getName());
+
+//new syntax class
+class Person{
+    constructor(name,pid,city){
+        this.name = name,
+        this.pid = pid,
+        this.city = city
+    }
+}
