@@ -4,19 +4,18 @@ let student1 = {
     age: 14,
     marks:98
 }
-//constructor function ->blueprint
-class Student{
-        //a special method to initilize current object
-        constructor(name, age, marks){
+function Student(name, age, marks){
             this.name=name;
             this.age=age;
             this.marks=marks;
+            // this.getName=function(){
+              //  return this.name
+            //}
         }
 
-        //getName(){
-          //  return this.name;
-        //}
-    }
+
+
+
 //Adding methods to prototype of the constructor
 Student.prototype.getName=function(){
     return this.name
@@ -34,4 +33,7 @@ class Person{
         this.pid = pid,
         this.city = city
     }
+     getName=function(){
+                return this.name
+            }
 }
