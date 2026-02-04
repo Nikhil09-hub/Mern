@@ -12,12 +12,13 @@ let person = {
     pid:100,
     name:'Anand'
 }
+//Deep Copy
 //Spread operator ... should be used if not copies for refereces are made not for the objects
 let copyPerson = {...person}
 console.log("Person Object :",person);
 console.log("Perosn object copy",copyPerson);
 
-//deepcopy for nested objects
+//Shallow Copy  for nested objects
 let emp = {
     empId:100,
     name:'ravi',
@@ -26,7 +27,9 @@ let emp = {
         pincode:500037
     }
 }
-let copyEmp = {...emp}
+
+//let copyEmp = {...emp} (Not usefull)
+let copyEmp = structuredClone(emp)
 emp.empId = 123
 emp.address.city = 'chennai'
 console.log("emp :",emp);
