@@ -22,3 +22,19 @@ addForm.addEventListener('submit',(event)=>{
     let second = Number(secondInput.value)
     console.log(first+second);
 })
+
+const multiplyForm = document.querySelector('#multiplyForm')
+const num1Input = document.querySelector('#num1')
+const num2Input = document.querySelector('#num2')
+const resultDisplay = document.querySelector('#result')
+
+multiplyForm.addEventListener('submit', (event) => {
+            event.preventDefault()
+
+            let firstNum = Number(num1Input.value)
+            let secondNum = Number(num2Input.value)
+
+            let result = firstNum * secondNum
+
+            resultDisplay.textContent = "Result: " + result
+        })
