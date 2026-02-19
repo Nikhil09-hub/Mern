@@ -9,6 +9,12 @@ function App(){ // funcrion name should be same as component name
         city:'Hyderabad'
     }
     let marks = [10,20,30,40,50,10]
+    function test(){
+        console.log('test called')
+    }
+    function findSum(a,b){
+        console.log(a+b)
+    }
     //every react component should return react element
     return (
         <div>
@@ -21,6 +27,9 @@ function App(){ // funcrion name should be same as component name
             {
                 marks.map((element,index)=><h3 key={index}>{element}</h3>)
             }
+            {/* Dont call the test function */}
+            <button onClick={test}>Click</button>
+            <button onClick={()=>findSum(5,10)}>Sum</button>
                 
         </div>
     )
