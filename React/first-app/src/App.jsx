@@ -7,11 +7,19 @@ function App(){ // funcrion name should be same as component name
     //state -> Dynamic content
     
     //every react component should return react element
+
+    let productList = [
+        {pid:101,pname:'TV',price:100000,},
+        {pid:102,pname:'Washing Machine',price:200000,},
+        {pid:103,pname:'Fridge',price:300000,}
+    ]
     return (
         <div>
-            {/* Nest product component */}
-            <Product></Product> 
-            <FirstComponent></FirstComponent>
+            {/* Nest product component */} 
+            <Product data={productList[0]}/>
+            <Product data={productList[1]}/>
+            <Product data={productList[2]}/>
+            {/*<FirstComponent></FirstComponent>*/}
         </div>
     )
 
