@@ -1,9 +1,10 @@
+import {useState} from 'react'
 function StateChange(){
     //State
-    let counter =0
+    //useState(intialState)
+    let [counter,setCounter]=useState(0)//[State,function to change state]
     const counterIncrement=()=>{
-        counter = counter+1
-        console.log(counter)
+        setCounter(counter+1)
     }
     return(
         <div>
